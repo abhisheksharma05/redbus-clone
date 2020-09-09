@@ -1,0 +1,242 @@
+@import url(../font/fontawesome-free-5.12.1-web/css/all.css);
+
+body{
+    background-color:#eee;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+#head{
+    background-color: #d84f57;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+#left {
+    width: 70%;
+    float: left;
+
+}
+
+#left ul{
+    list-style: none;
+
+}
+#left ul li{
+    float: left;
+    margin-top: 7px;
+}
+.bustickets{
+    font-weight: 700;
+    color: white !important;
+    border-bottom: 3px solid #fff !important;
+   padding-bottom: 16px !important;
+}
+
+
+
+#left ul li a{
+    color: #f9e7ea;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+}
+#left ul li a:hover{
+    color:white;
+    
+}
+
+#left ul li img{
+    width: 98px;
+    height: 71px;
+    margin-top: -46px;
+    margin-bottom: -25px;
+}
+
+.right{
+    width: 30%;
+    float: left;
+}
+.right ul{
+    list-style: none;
+}
+.right ul li{
+    float: left;
+    margin-top: 7px;
+    position: relative;
+    left: 60px;
+}
+.right ul li a{
+    
+    color: #f9e7ea;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+#icon{
+    padding: 0px;
+}
+#slider{
+    background-image: url(../images/slider.png);
+    background-size: cover;
+    background-repeat:round;
+    height: 390px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -4px;
+}
+.icon{
+    font-size: 35px;
+    padding: 10px;
+   
+    color: white;
+    position: relative;
+    top: -9px;
+}
+ 
+#slider article{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#slider article div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.search{
+    height: 46px;
+    position: relative;
+    top: 158px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.18);
+    position: relative;
+    
+}
+.width{
+    width: 225px;
+    padding-left: 37px;
+    position: relative;
+}
+.width2{
+    width: 158px;
+   
+}
+
+
+.button{
+    width: 150px;
+    background-color: #d74f57;
+    color: #fff;
+    font-size: 14px;
+    border-width: 0;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+#afterslider{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -66px;
+}
+
+#afterslider article{
+    width: 600px;
+    height:120px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+
+
+.text{
+    position: relative;
+
+}
+.text h1{
+    font-size: 19px;
+    margin-top: 28px;
+    margin-bottom: 4px;
+}
+.text p{
+    font-size: 14px;
+    color: #737373;
+    margin-top: 8px;
+}
+
+.image{
+    position: relative;
+    right: 47px;
+    top: 11px;
+}
+.icon3{
+    position: absolute;
+    left: 9px;
+    top: 14px;
+    font-size: 21px;
+    color: #999;
+}
+.icon4{
+    position: relative;
+    right: 400%;
+    top: 14px;
+    font-size: 21px;
+    color: #999;
+}
+
+
+
+
+#cashback{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -51px;
+    left: 10px;
+}
+#cashback article{
+    width: 1155px;
+    margin: 0 auto;
+}
+.offer{
+    width: 360px;
+    float: left;
+    background-color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    box-shadow: 0 1px 10px #c3c3c3;
+}
+.offer img{
+    position: relative;
+    top: -14px;
+}
+.offer p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #737373;
+   margin-left: 9%;
+}
+.offer h1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+ h2{
+   
+    font-size: 12px;
+    font-weight: 600;
+    color: #737373;
+}
+ .offer:hover{
+     transition: ease-in-out 0.2s;
+     transform: scale(1.06);
+ }
